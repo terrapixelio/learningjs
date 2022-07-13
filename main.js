@@ -1,15 +1,20 @@
-const x = 50;
+const food = [
+  {
+    name: "Pizza",
+    date: "Tuesday",
+    isOrdered: true
+  },
+  {
+    name: "Pizza",
+    date: "Tuesday",
+    isOrdered: true
+  },
+  {
+    name: "Pizza",
+    date: "Tuesday",
+    isOrdered: true
+  }
+]
 
-if (x === 40) {
-  console.log("x equals 40");
-} else if (x > 40) {
-  console.log("x is greater than 40");
-} else {
-  console.log("x is less than 40");
-}
+console.log(food);
 
-as;
-asd;
-asd;
-asd;
-asd;
