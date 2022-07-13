@@ -1,18 +1,18 @@
 const food = [
   {
-    name: "Pizza",
-    date: "Tuesday",
+    name: "Hotdog",
+    date: "Monday",
     isOrdered: true
   },
   {
     name: "Pizza",
-    date: "Tuesday",
+    date: "Friday",
     isOrdered: true
   },
   {
-    name: "Pizza",
-    date: "Tuesday",
-    isOrdered: true
+    name: "Burger",
+    date: "Wednesday",
+    isOrdered: false
   }
 ]
 
