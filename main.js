@@ -1,20 +1,8 @@
-const food = [
-  {
-    name: "Hotdog",
-    date: "Monday",
-    isOrdered: true
-  },
-  {
-    name: "Pizza",
-    date: "Friday",
-    isOrdered: true
-  },
-  {
-    name: "Burger",
-    date: "Wednesday",
-    isOrdered: false
-  }
-]
+let totalTreats = document.getElementById('dog-treats')
 
-console.log(food);
+let count = 0
 
+function doggyTreats() {
+    count = count + 1
+    totalTreats.innerText = count
+}

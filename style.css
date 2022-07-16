@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;500;600&display=swap');
+
+:root {
+    --heading-color: rgb(32, 3, 3);
+    --cards-bg:rgb(252, 239, 124);
+    --font-type: 'Edu NSW ACT Foundation', cursive;
+    --btn:#c32522;
+    --white-heading:#fff;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    left: 0;
+    top: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--heading-color);
+    background-image: url("img/japananime.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+h1 {
+    font-size: 25px;
+    line-height: 35px;
+    font-family: var(--font-type)
+    
+}
+
+.container_wrapper {
+    background:var(--cards-bg);
+    position: relative;
+    width: 330px;
+    height: 220px;
+    padding: 35px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    text-align: center;
+    gap: 30px;
+    box-shadow: 0 20px 28px -10px #f34211ba;
+    transition: 0.4s ease-in-out;
+}
+
+.shinchan {
+    position: absolute;
+    width: 150px;
+    top: -80px;
+    left: 335px;
+}
+
+#increment-btn
+{
+    background:var(--btn);
+    color: var(--white-heading);
+    border:0;
+    padding: 1em 3.5em;
+    border-radius:4px;
+    font-family: var(--font-type);
+    font-size:1.1em;
+    cursor: pointer;
+    transition:0.2s ease-in-out;
+}
+
+#increment-btn:hover {
+
+    transform: scale(1.1);
+    box-shadow: 0 20px 28px -10px #481203ba;
+}
+
+#bitch-slaps-counts
+{
+    font-size:30px;
+}
