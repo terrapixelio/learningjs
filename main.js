@@ -1,8 +1,13 @@
 let totalTreats = document.getElementById('dog-treats')
-
+let myFedTreats = document.getElementById('treats-fed')
 let count = 0
 
 function doggyTreats() {
-    count = count + 1
-    totalTreats.innerText = count
+    count += 1
+    totalTreats.textContent = count
+}
+
+function saveTreats() {
+    let savedTreats = count + ' '
+    myFedTreats.textContent += savedTreats
 }

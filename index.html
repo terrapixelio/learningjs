@@ -3,18 +3,22 @@
         <meta charset="UTF-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <title>Counter app</title>
+        <title>Doggy treats count</title>
         <link rel="stylesheet" href="style.css">
 
     </head>
     <body>
         <div class="container">
             <div class="container_wrapper">
-                <h1>How many candies did the doggy receive?</h1>
+                <h1>How many treats did the doggy receive?</h1>
                 <h1 id="dog-treats">0</h1>
+                <p id="treats-fed">Yummies consumed: </p>
                 <img class="shinchan" src="./img/shinchan.png" alt="shinchan">
                 <img class="dog_shin" src="./img/dog_shin.png" alt="dog_shinchan">
-                <button id="increment-btn" onclick="doggyTreats()">Feed me!</button>
+                <div class="btn_wrap">
+                <button id="save-btn" onclick="saveTreats()">Save Treat Count</button>
+                <button id="increment-btn" onclick="doggyTreats()">Feed Me!</button>
+                </div>
             </div>
         </div>
         <script type="text/javascript " src="/main.js"></script>

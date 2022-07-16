@@ -29,24 +29,29 @@
 }
 
 h1 {
-    font-size: 25px;
+    font-size: 26px;
     line-height: 35px;
     font-family: var(--font-type)
     
+}
+#dog-treats
+{
+    font-size:64px;
+    color:#9491fc;
 }
 
 .container_wrapper {
     background:var(--cards-bg);
     position: relative;
-    width: 330px;
-    height: 220px;
+    width: 400px;
+    height: 300px;
     padding: 35px;
     border-radius: 8px;
     display: flex;
     align-items: center;
     flex-flow: column;
     text-align: center;
-    gap: 30px;
+    gap: 40px;
     box-shadow: 0 20px 28px -10px #f34211ba;
     transition: 0.4s ease-in-out;
 }
@@ -55,22 +60,43 @@ h1 {
     position: absolute;
     width: 150px;
     top: -80px;
-    left: 335px;
+    left: 420px;
 }
 
 .dog_shin {
     position: absolute;
-    top:220;
+    top:280;
     left:-250px;
     width:850px;
+}
+
+.btn_wrap {
+    display:flex;
+    flex-direction:row;
+gap:20px;
 }
 
 #increment-btn
 {
     background:var(--btn);
+    background:rgb(146, 146, 252);
     color: var(--white-heading);
     border:0;
-    padding: 1em 3.5em;
+    padding: 1em 2em;
+    border-radius:4px;
+    font-family: var(--font-type);
+    font-size:1.1em;
+    cursor: pointer;
+    transition:0.2s ease-in-out;
+    
+}
+
+#save-btn
+{
+    background:var(--btn);
+    color: var(--white-heading);
+    border:0;
+    padding: 1em 2em;
     border-radius:4px;
     font-family: var(--font-type);
     font-size:1.1em;
@@ -78,13 +104,9 @@ h1 {
     transition:0.2s ease-in-out;
 }
 
-#increment-btn:hover {
+#save-btn:hover, #increment-btn:hover {
 
     transform: scale(1.1);
     box-shadow: 0 20px 28px -10px #481203ba;
 }
 
-#bitch-slaps-counts
-{
-    font-size:30px;
-}
