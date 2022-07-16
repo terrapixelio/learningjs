@@ -88,6 +88,7 @@ gap:20px;
     font-size:1.1em;
     cursor: pointer;
     transition:0.2s ease-in-out;
+    z-index: 1;
     
 }
 
@@ -102,6 +103,8 @@ gap:20px;
     font-size:1.1em;
     cursor: pointer;
     transition:0.2s ease-in-out;
+        z-index: 1;
+
 }
 
 #save-btn:hover, #increment-btn:hover {

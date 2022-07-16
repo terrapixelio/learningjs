@@ -10,4 +10,6 @@ function doggyTreats() {
 function saveTreats() {
     let savedTreats = count + ' '
     myFedTreats.textContent += savedTreats
+    totalTreats.textContent = 0
+    count = 0
 }
