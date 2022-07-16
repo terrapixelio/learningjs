@@ -1,0 +1,1 @@
+<img class="shinchan" src="./img/shinchan.png" alt="shinchan">
