@@ -58,6 +58,13 @@ h1 {
     left: 335px;
 }
 
+.dog_shin {
+    position: absolute;
+    top:220;
+    left:-250px;
+    width:850px;
+}
+
 #increment-btn
 {
     background:var(--btn);
